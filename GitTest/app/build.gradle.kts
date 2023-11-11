@@ -8,7 +8,7 @@ android {
     namespace = "com.example.gittest"
     compileSdk = 34
 
-    viewBinding{
+    viewBinding {
         enable = true
     }
 
