@@ -4,8 +4,11 @@ plugins {
 
 android {
     namespace = "com.example.gittest"
-    compileSdk = 33
+    compileSdk = 34
 
+    viewBinding {
+        enable = true
+    }
     defaultConfig {
         applicationId = "com.example.gittest"
         minSdk = 33
